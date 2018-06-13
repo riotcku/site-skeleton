@@ -1,0 +1,42 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Skeleton</title>
+  <meta name="description" content="This description shows under your title in website searches.">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Open Sans and Lato google font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+  <header class="header-container main-container">
+    <div class="header-title">Site Skeleton</div>
+  </header>
+  <div class="main-container">
+    <section class="content-container column-container">
+      <div class="body-text">
+        This is mostly a collection of useful css classes I keep using in every site.
+      </div>
+      <div class="body-text">
+        The class 'main-container' of the outer container defines the horizontal max width of the content, while 'content-container' defines space between content.
+      </div>
+      <div class="body-text">
+        The class 'column-container' defines flex layout as `column`.
+      </div>
+    </section>
+    <section class="content-container row-container space-between">
+      <div class="body-text">
+        In the same vein, 'row-container' defines flex layout as `row`. Note the use of `space-between` class to define `justify-content` of the flexbox.
+      </div>
+      <div class="row-container">
+        <button type="button" class="btn btn-t-primary">Primary</button>
+        <button type="button" class="btn btn-t-primary red">Added class 'red'</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

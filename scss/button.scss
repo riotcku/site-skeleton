@@ -1,0 +1,73 @@
+.btn {
+  background: none;
+  outline: none;
+  color: inherit;
+  line-height: 1;
+  word-break: normal;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  padding: 0;
+
+  &.disabled {
+    cursor: normal;
+
+    &:hover {
+      cursor: normal;
+    }
+  }
+}
+
+.btn-t-primary {
+  background: $white-light;
+  color: $black;
+  padding: 8px 10px;
+  font-size: 15px;
+  border-radius: 2px;
+  min-width: 95px;
+  border: 2px solid;
+  border-color: $white-shade;
+
+  &:hover {
+    border-color: $off-white;
+  }
+
+  &:active {
+    border-top: 4px solid;
+    border-bottom: none;
+    border-color: $off-white;
+    background: $white-gray;
+    border-radius: 2px;
+  }
+
+  &:disabled {
+    background: $disabled-text;
+    border: 2px solid $disabled-text;
+    color: $gray-disabled;
+    cursor: default;
+
+    &:hover,
+    &:focus,
+    &:active {
+      border: 2px solid $disabled-text;
+      background: $disabled-text;
+      color: $gray-disabled;
+    }
+  }
+
+  &.red {
+    color: $white;
+    background: $red-warning;
+    border-color: $red-warning;
+
+    &:hover {
+      border-color: $red-highlight;
+    }
+
+    &:active {
+      border-color: #8a0000;
+      background: #e85224;
+    }
+  }
+}

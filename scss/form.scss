@@ -1,0 +1,128 @@
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  margin-top: 8px;
+
+  &.no-margin {
+    margin-top: 0;
+  }
+
+  &.bold,
+  .bold {
+    font-weight: 700;
+  }
+
+  &.form-t-long,
+  &.long {
+    flex-flow: row nowrap;
+    align-items: center;
+
+    .form-title {
+      flex: 0 1 44%;
+      margin-bottom: 0;
+      padding-top: 4px;
+      white-space: nowrap;
+    }
+  }
+
+  &.large {
+    &.form-t-long { // .form-field.form-t-long.large {}
+      .form-title {
+        padding-top: 10px;
+        flex: 0 1 44%;
+      }
+    }
+
+    .form-t-input {
+      min-height: 35px;
+      padding: 5px 10px;
+      padding-right: 5px;
+    }
+  }
+}
+
+.form-title {
+  position: relative;
+  font-family: $font-secondary;
+  font-size: 14px;
+  margin-bottom: 4px;
+
+  &.big {
+    font-size: 18px;
+  }
+
+  &.bold {
+    font-weight: 800;
+  }
+}
+
+.form-t-select,
+.form-t-input {
+  outline: none;
+  min-height: 23px;
+  width: 100%;
+  border: 1px solid $black-secondary;
+  border-radius: 4px;
+
+  &.white {
+    color: $black-secondary;
+    border-color: $white-gray;
+    background: $white;
+
+    &:hover {
+      border-color: $gray-highlight;
+      color: $black;
+    }
+
+    &:focus {
+      color: $black;
+      background: $white;
+    }
+  }
+
+  &.invalid {
+    border-color: $red-warning;
+
+    &:hover,
+    &:focus {
+      border-color: $red-primary;
+    }
+  }
+
+  &:hover {
+    border-color: $gray-highlight;
+    color: $white;
+  }
+
+  &:focus {
+    color: $white;
+    background: $black;
+  }
+
+  &:disabled {
+    background: $disabled-icon !important;
+    color: $black !important;
+    cursor: default !important;
+    user-select: none;
+    border-color: $black-shadow;
+
+    &:hover {
+      border-color: $black-shadow;
+    }
+  }
+}
+
+.form-t-select {
+  padding: 9px;
+}
+
+.form-t-input {
+  padding: 0 8px;
+
+  &.sub-input {
+    flex: 1 1 20%;
+    margin-right: 6px;
+    min-width: 85px;
+  }
+}
