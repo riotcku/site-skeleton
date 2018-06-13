@@ -1,0 +1,371 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v18/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
+}
+
+[class^="icon-"],
+[class*=" icon-"],
+.icon {
+  font-family: 'Material Icons' !important;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  speak: none;
+  fill: currentColor;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+}
+
+.icon-t-key::after {
+  content: '\E0DA';
+}
+
+.icon-t-person::after {
+  content: '\E7FE';
+}
+
+.icon-t-speaker::after {
+  content: '\E91F';
+}
+
+.icon-t-phone::after {
+  content: '\E0B0';
+}
+
+.icon-t-phone-end::after {
+  content: '\E0B1';
+}
+
+.icon-t-phone-active::after {
+  content: '\E61D';
+}
+
+.icon-t-phone-missed::after {
+  content: '\E61F';
+}
+
+.icon-t-phone-sip::after {
+  content: '\E0BB';
+}
+
+.icon-t-numpad::after {
+  content: '\E5C3';
+}
+
+.icon-t-chat::after {
+  content: '\E0BF';
+}
+
+.icon-t-ticket-star::after {
+  content: '\E53F';
+}
+
+.icon-t-eye::after {
+  content: '\E8F4';
+}
+
+.icon-t-write-done::after {
+  content: '\E22B';
+}
+
+.icon-t-event-success::after {
+  content: '\E614';
+}
+
+.icon-t-event-fail::after {
+  content: '\E615';
+}
+
+.icon-t-settings::after {
+  content: '\E8B8';
+}
+
+.icon-t-sort::after {
+  content: '\E164';
+}
+
+.icon-t-write::after {
+  content: '\E150';
+}
+
+.icon-t-account::after {
+  content: '\E853';
+}
+
+.icon-t-account-add::after {
+  content: '\E7FE';
+}
+
+.icon-t-window::after {
+  content: '\E895';
+}
+
+.icon-t-video::after {
+  content: '\E04B';
+}
+
+.icon-t-folder::after {
+  content: '\E2C7';
+}
+
+.icon-t-folder-open::after {
+  content: '\E2C8';
+}
+
+.icon-t-folder-new::after {
+  content: '\E2CC';
+}
+
+.icon-t-mic::after {
+  content: '\E31D';
+}
+
+.icon-t-mute::after {
+  content: '\E02B';
+}
+
+.icon-t-options::after {
+  content: '\E5D4';
+}
+
+.icon-t-world::after {
+  content: '\E894';
+}
+
+.icon-t-star::after {
+  content: '\E838';
+}
+
+.icon-t-star-open::after {
+  content: '\E83A';
+}
+
+.icon-t-circle::after {
+  content: '\E061';
+}
+
+.icon-t-circle-active::after {
+  content: '\E837';
+}
+
+.icon-t-circle-open::after {
+  content: '\E836';
+}
+
+.icon-t-volume::after {
+  content: '\E050';
+}
+
+.icon-t-volume-off::after {
+  content: '\E04F';
+}
+
+.icon-t-close::after {
+  content: '\E14C';
+}
+
+.icon-t-close-circle::after {
+  content: '\E888';
+}
+
+.icon-t-copy::after {
+  content: '\E14D';
+}
+
+.icon-t-paste::after {
+  content: '\E14F';
+}
+
+.icon-t-back::after {
+  content: '\E5CB';
+}
+
+.icon-t-forward::after {
+  content: '\E5CC'
+}
+
+.icon-t-back-arrow::after {
+  content: '\E5C4'
+}
+
+.icon-t-headset::after {
+  content: '\E310';
+}
+
+.icon-t-usb::after {
+  content: '\E1E0';
+}
+
+.icon-t-mixer::after {
+  content: '\E429';
+}
+
+.icon-t-down-caret::after {
+  content: '\E5CF';
+}
+
+.icon-t-caret::after {
+  content: '\E5CF';
+}
+
+.icon-t-talk::after {
+  content: '\E91F';
+}
+
+.icon-t-backspace::after {
+  content: '\E14A';
+}
+
+.icon-t-add::after {
+  content: '\E145';
+}
+
+.icon-t-add-square::after {
+  content: '\E146';
+}
+
+.icon-t-add-circle::after {
+  content: '\E147';
+}
+
+.icon-t-block::after {
+  content: '\E14B';
+}
+
+.icon-t-lock::after {
+  content: '\E88D';
+}
+
+.icon-t-bell::after {
+  content: '\E7F4';
+}
+
+.icon-t-bell-ring::after {
+  content: '\E7F7';
+}
+
+.icon-t-bell-off::after {
+  content: '\E7F6';
+}
+
+.icon-t-supervise::after {
+  content: '\E8D3';
+}
+
+.icon-t-building::after {
+  content: '\E0AF';
+}
+
+.icon-t-signal::after {
+  content: '\E1E2';
+}
+
+.icon-t-ticket::after {
+  content: '\E638';
+}
+
+.icon-t-log::after {
+  content: '\E616';
+}
+
+.icon-t-save::after {
+  content: '\E161';
+}
+
+.icon-t-inspect::after {
+  content: '\E8A0';
+}
+
+.icon-t-warning::after {
+  content: '\E8B2';
+}
+
+.icon-t-question::after {
+  content: '\E887';
+}
+
+.icon-t-info::after {
+  content: '\E88E';
+}
+
+.icon-t-error::after {
+  content: '\E000';
+}
+
+.icon-t-restore::after {
+  content: '\E8B3';
+}
+
+.icon-t-renew::after {
+  content: '\E863';
+}
+
+.icon-t-undo::after {
+  content: '\E045';
+}
+
+.icon-t-redo::after {
+  content: '\E044';
+}
+
+.icon-t-refresh::after {
+  content: '\E042';
+}
+
+.icon-t-remove::after {
+  content: '\E15C';
+}
+
+.icon-t-square::after {
+  content: '\E3C6';
+}
+
+.icon-t-triangle::after {
+  content: '\E86B';
+}
+
+.icon-t-trash::after {
+  content: '\E16C';
+}
+
+.icon-t-switch::after {
+  content: '\E043';
+}
+
+.icon-t-checkbox-empty::after {
+  content: '\E835';
+}
+
+.icon-t-play::after {
+  content: '\E037';
+}
+
+.icon-t-checkbox::after {
+  content: '\E834';
+}
+
+.icon-t-search::after {
+  content: '\E8B6';
+}
+
+.icon-t-zoomin::after {
+  content: '\E8FF';
+}
+
+.icon-t-download::after {
+  content: '\E2C4';
+}
+
+.icon-t-zoomout::after {
+  content: '\E900';
+}
